@@ -1,0 +1,30 @@
+【dvi_tx】		：	hdmi显示驱动模块
+【i2c_master】		：	用于摄像头配置的IIC模块
+【uart_module】		：	串口收发模块
+Image_Rotate.fdc	：	约束文件
+
+【coor_trans】		：	该文件夹中放置用于图像旋转坐标变换的模块。
+	--hdl		verilog代码		
+	--matlab  	matlab验证代码
+	
+【ddr3】						：	DDR3  ip文件。
+
+【display_module】				：	图像显示的相关代码
+	--Char_Pic_Disply.v			：	显示模块的顶层模块
+	--char_array_decode.v		：	储存字符点阵
+	--char2_array_decode.v		：	储存字符点阵
+	--video_timing_data.v		：	生成显示同步信号
+	--RGB_Gary_Binary.v			：	图像的灰度，黑白模式显示模块
+	--timing_gen_xy.v			：	生成视频图像的X，Y坐标
+	
+【sources_1】
+	--top.v							：工程的顶层模块
+	--aq_axi_master.v				：AXI总线控制模块		
+	--lut_ov5640_rgb565_1024_768.v	：摄像头的配置参数文件
+	--Key_Module.v					：按键检测模块
+	--image_processing.v			：图像处理模块
+	--cmos_write_req_gen.v			：摄像头数据写控制模块
+	--frame_fifo_read.v				：fifo的读控制模块
+	--frame_fifo_write.v			：fifo的写控制模块
+	--cmos_8_16bit.v				：摄像头数据的数据转换模块（8bit >> 16bit ）
+	--frame_read_write.v			：视频数据的读写控制模块

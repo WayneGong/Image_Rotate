@@ -1,0 +1,8 @@
+{8'hFF,8'hFF,8'h80,8'h03,8'hFE,8'hFF,8'hFE,8'hFF,8'hEE,8'hEF,8'hF6,8'hEF,8'hF6,8'hDF,8'hFE,8'hFF,8'h00,8'h01,8'hFE,8'hFF,8'hFE,8'hFF,8'hFE,8'hFF,8'hFE,8'hFF,8'hFE,8'hFF,8'hFE,8'hFF,8'hFE,8'hFF},/*"平",0*/
+{8'hF7,8'hDF,8'hE3,8'hDF,8'h0F,8'h83,8'hEF,8'h7B,8'hEE,8'hB7,8'h03,8'hCF,8'hEF,8'hDF,8'hCF,8'hB7,8'hC6,8'h6F,8'hAB,8'hC1,8'hAB,8'hBD,8'h6E,8'h5B,8'hEF,8'hE7,8'hEF,8'hEF,8'hEF,8'h9F,8'hEE,8'h7F},/*"移",1*/
+{8'hFB,8'hFF,8'hFB,8'hFF,8'hFB,8'hFF,8'h00,8'h01,8'hF7,8'hFF,8'hF7,8'h7F,8'hF7,8'h7B,8'hED,8'h7B,8'hED,8'h77,8'hDB,8'h6F,8'hD6,8'hBF,8'hBE,8'hBF,8'h7D,8'hDF,8'hFB,8'hEF,8'hE7,8'hF7,8'h9F,8'hF9},/*"灰",0*/
+{8'hFE,8'hFF,8'hFF,8'h7F,8'hC0,8'h01,8'hDD,8'hDF,8'hDD,8'hDF,8'hC0,8'h03,8'hDD,8'hDF,8'hDD,8'hDF,8'hDC,8'h1F,8'hDF,8'hFF,8'hD0,8'h0F,8'hDB,8'hEF,8'hBD,8'hDF,8'hBE,8'h3F,8'h79,8'hCF,8'hC7,8'hF1},/*"度",1*/
+{8'hFF,8'hFF,8'hC0,8'h07,8'hDE,8'hF7,8'hD6,8'hD7,8'hDA,8'hB7,8'hC0,8'h07,8'hFE,8'hFF,8'hFE,8'hFF,8'hC0,8'h07,8'hFE,8'hFF,8'hFE,8'hFF,8'h00,8'h01,8'hFF,8'hFF,8'hB7,8'h77,8'hBB,8'hBB,8'h7B,8'hBB},/*"黑",0*/
+{8'hFE,8'hFF,8'hFD,8'hFF,8'hFB,8'hFF,8'hC0,8'h07,8'hDF,8'hF7,8'hDF,8'hF7,8'hDF,8'hF7,8'hDF,8'hF7,8'hC0,8'h07,8'hDF,8'hF7,8'hDF,8'hF7,8'hDF,8'hF7,8'hDF,8'hF7,8'hDF,8'hF7,8'hC0,8'h07,8'hDF,8'hF7},/*"白",1*/
+{8'hFF,8'hFF,8'h80,8'h03,8'hFE,8'hFF,8'hFE,8'hFF,8'hFE,8'hFF,8'hFE,8'hFF,8'hEE,8'hFF,8'hEE,8'h07,8'hEE,8'hFF,8'hEE,8'hFF,8'hEE,8'hFF,8'hEE,8'hFF,8'hEE,8'hFF,8'hEE,8'hFF,8'h00,8'h01,8'hFF,8'hFF},/*"正",0*/
+{8'hFE,8'hFF,8'hEE,8'hEF,8'hF6,8'hDF,8'h80,8'h01,8'hBF,8'hFD,8'h60,8'h0B,8'hEF,8'hEF,8'hE0,8'h0F,8'hFE,8'hFF,8'hC0,8'h07,8'hDE,8'hF7,8'hDE,8'hF7,8'hDE,8'hD7,8'hDE,8'hEF,8'hFE,8'hFF,8'hFE,8'hFF},/*"常",1*/

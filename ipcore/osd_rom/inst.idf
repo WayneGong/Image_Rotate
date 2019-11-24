@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_inst>
+    <header>
+        <vendor/>
+        <name>Logos DRM Based ROM</name>
+        <version>1.3</version>
+        <instance>osd_rom</instance>
+        <family>Logos</family>
+        <device>PGL22G</device>
+        <package>BG324</package>
+        <speedgrade>-6</speedgrade>
+        <generator version="2019.1-patch11" build="44256">IP Compiler</generator>
+    </header>
+    <param_list>
+        <param>
+            <name>INIT_FORMAT</name>
+            <value>HEX</value>
+        </param>
+        <param>
+            <name>ADDR_STROBE_EN</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>ADDR_WIDTH</name>
+            <value>12</value>
+        </param>
+        <param>
+            <name>CLK_EN</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>OUTPUT_REG</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>INIT_EN</name>
+            <value>true</value>
+        </param>
+        <param>
+            <name>DRM_MODE_SEL</name>
+            <value>AUTO</value>
+        </param>
+        <param>
+            <name>MODE_9K</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>RESET_TYPE</name>
+            <value>ASYNC</value>
+        </param>
+        <param>
+            <name>MODE_18K</name>
+            <value>true</value>
+        </param>
+        <param>
+            <name>RD_OCE_EN</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>POWER_OPT</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>DATA_WIDTH</name>
+            <value>8</value>
+        </param>
+        <param>
+            <name>CLK_OR_POL_INV</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>INIT_FILE</name>
+            <value>D:/FPGA_2019/00_Image_Rotate/ipcore/osd_rom/char521X32.dat</value>
+        </param>
+    </param_list>
+    <pin_list>
+        <pin>
+            <name>addr</name>
+            <text>addr</text>
+            <dir>input</dir>
+            <pos>left</pos>
+            <msb>11</msb>
+            <lsb>0</lsb>
+        </pin>
+        <pin>
+            <name>clk</name>
+            <text>clk</text>
+            <dir>input</dir>
+            <pos>left</pos>
+        </pin>
+        <pin>
+            <name>rst</name>
+            <text>rst</text>
+            <dir>input</dir>
+            <pos>left</pos>
+        </pin>
+        <pin>
+            <name>rd_data</name>
+            <text>rd_data</text>
+            <dir>output</dir>
+            <pos>right</pos>
+            <msb>7</msb>
+            <lsb>0</lsb>
+        </pin>
+    </pin_list>
+    <synthesis>
+        <script><![CDATA[set_option -vlog_std v2001]]></script>
+        <script><![CDATA[set_option -disable_io_insertion 1]]></script>
+    </synthesis>
+    <file_list>
+        <output>
+            <file pathname="generate.log" format="log" description="Generate Log"/>
+            <file pathname="osd_rom_tmpl.v" format="verilog" description="Instantiation Template"/>
+        </output>
+        <source>
+            <file pathname="rtl/ipml_rom_v1_3_osd_rom.v"/>
+            <file pathname="rtl/ipml_spram_v1_3_osd_rom.v"/>
+            <file pathname="osd_rom.v"/>
+        </source>
+    </file_list>
+</ip_inst>

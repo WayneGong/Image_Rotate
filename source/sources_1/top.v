@@ -1,31 +1,4 @@
-//////////////////////////////////////////////////////////////////////////////////
-//  ov5640 lcd display                                                          //
-//                                                                              //
-//  Author: lhj                                                                 //
-//                                                                              //
-//          ALINX(shanghai) Technology Co.,Ltd                                  //
-//          heijin                                                              //
-//     WEB: http://www.alinx.cn/                                                //
-//     BBS: http://www.heijin.org/                                              //
-//                                                                              //
-//////////////////////////////////////////////////////////////////////////////////
-//                                                                              //
-// Copyright (c) 2017,ALINX(shanghai) Technology Co.,Ltd                        //
-//                    All rights reserved                                       //
-//                                                                              //
-// This source file may be used and distributed without restriction provided    //
-// that this copyright statement is not removed from the file and that any      //
-// derivative work contains the original copyright notice and the associated    //
-// disclaimer.                                                                  //
-//                                                                              //
-//////////////////////////////////////////////////////////////////////////////////
 
-//================================================================================
-//  Revision History:
-//  Date          By            Revision    Change Description
-//--------------------------------------------------------------------------------
-//  2018/01/11     lhj          1.0         Original
-//*******************************************************************************/
 
  module top(
 input                       sys_clk,
